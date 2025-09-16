@@ -230,6 +230,8 @@
       .result-label {
         font-size: 0.9rem;
         color: rgba(0, 0, 0, 0.6);
+        white-space: nowrap;
+        flex-shrink: 0; /* 可选，但有助于在窄屏时保持整词不拆行 */
       }
 
       .result-value {
